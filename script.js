@@ -9,5 +9,6 @@ function buttonClicked() {
 	div.style.oTransform      = 'rotate('+deg+'deg)'; 
 	div.style.transform       = 'rotate('+deg+'deg)'; 
 
-	rotated = !rotated;
+	//rotated = !rotated;
+	rotated = false;
 }
