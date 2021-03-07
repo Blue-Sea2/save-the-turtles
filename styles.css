@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&family=Ubuntu:wght@700&family=ZCOOL+QingKe+HuangYou&display=swap');
+
 body{
 	background-color: purple;
+}
+.rubik{
+	font-family: "Rubik";
+}
+.ubuntu{
+	font-family: "Ubuntu";
+}
+.zcool{
+	font-family: "ZCOOL QingKe HuangYou";
 }
