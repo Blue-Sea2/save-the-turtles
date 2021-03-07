@@ -1,4 +1,8 @@
+var content = document.getElementById("pictures");
 function showPictures() {
-	var pictures = document.getElementById("pictures");
-	pictures.style.display = "block";
+	if (content.style.display === "block") {
+		content.style.display = "none";
+	} else {
+		content.style.display = "block";
+	}
 }
