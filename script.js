@@ -1,7 +1,7 @@
 function buttonClicked() {
 	var rotated = false;
     	var div = document.getElementById('turtle'),
-        deg = rotated ? 0 : 66;
+        deg = rotated ? 0 : 360;
 
 	div.style.webkitTransform = 'rotate('+deg+'deg)'; 
 	div.style.mozTransform    = 'rotate('+deg+'deg)'; 
