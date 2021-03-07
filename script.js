@@ -10,5 +10,7 @@ function buttonClicked() {
 	div.style.transform       = 'rotate('+deg+'deg)'; 
 
 	rotated = !rotated;
-	div.style.transform       = 'rotate(0deg)';
+	setTimeout(function() {
+		div.style.transform = 'rotate(0deg)';
+	}, 1000)		
 }
